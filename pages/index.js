@@ -3,10 +3,9 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
-  console.log(process.env.DOMAIN);
   return (
     <div className={styles.container}>
-      <h1>{window.location.hostname}</h1>
+      <h1>{window?.location?.hostname}</h1>
     </div>
   );
 }
