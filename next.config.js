@@ -12,7 +12,7 @@ const handleCdn = () => {
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  assetPrefix: handleCdn() ? "www.mycdn.com" : "www.nocdn.com",
+  assetPrefix: true ? "www.mycdn.com" : "www.nocdn.com",
 };
 
 module.exports = nextConfig;
