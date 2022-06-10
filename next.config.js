@@ -59,7 +59,7 @@ module.exports = (phase) => {
   };
 
   const assetPrefix = isProd
-    ? process.env.domain ?? "https://correct.com"
+    ? process.env.domain ?? "https://crrect.com"
     : "https://isnotwindow.com";
 
   return {
